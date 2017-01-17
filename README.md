@@ -1,20 +1,20 @@
 # Why?
 We need one place to have a list of interview questions, concepts, coding challenges, best practices, etc.,
 
-[] TODO: Add Sub Pages for below topics
+[ ] TODO: Add Sub Pages for below topics
 
-## Language
+### Language
 - HTML
 - CSS
 - JAVASCRIPT
 
-## Frameworks
+### Frameworks
 - Angular JS
 - React JS
 - jQuery
 - Backbone JS
 
-## Dev, Build Tools
+### Dev, Build Tools
 - Webpack 2
 - Gulp
 - Yarn
@@ -23,7 +23,7 @@ We need one place to have a list of interview questions, concepts, coding challe
 - Oh My Zsh
 - CSS Preprocessors (SASS, POSTCSS)
 
-## Others
+### Others
 - Responsive Web Design (RWD)
 - Single Page Applications (SPA)
 - How Browser Works, Painting
@@ -33,10 +33,10 @@ We need one place to have a list of interview questions, concepts, coding challe
 - Data Structures: LinkedList, Queue, Stack, Graph, Sorting Algorithm, Search Algorithm
 - Test cases: Unit Testing, End to End Testing, Phantom JS
 
-## Deployment
+### Deployment
 - Surge
 - Now.sh
 
-## Continous Intergration
+### Continous Intergration
 - Travis
 - Jenkins
