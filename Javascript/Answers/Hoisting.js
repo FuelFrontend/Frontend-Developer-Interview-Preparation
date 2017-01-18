@@ -8,20 +8,17 @@
 */
 
 // Example 1
-
 console.log(foo); // Undefined
 var foo = 10;
 console.log(foo); // 10
 
 // Above example goes like below
-
 var foo; // Declaration
 console.log(foo); // Undefined
 foo = 10; // Initialization (happens at the `execution`)
 console.log(foo); // 10
 
 // Example 2
-
 // Calling before declaration.
 bar(); // Bar
 function bar() {
@@ -29,7 +26,6 @@ function bar() {
 }
 
 // Above example goes like below
-
 // Function declaration happens at the top
 function bar() {
 	console.log("Bar");
