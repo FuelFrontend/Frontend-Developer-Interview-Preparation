@@ -2,23 +2,23 @@
 
 > Contains basic and advanced questions
 
-- [ ] - Hoisting
-- [ ] - Closure
-- [ ] - Bind
-- [ ] - Scope in JS
-- [ ] - Call and Apply
-- [ ] - How this works?
-- [ ] - Diff between null and undefined?
-- [ ] - Diff between DOMContentLoaded and onload?
-- [ ] - Data types in JS
-- [ ] - === vs == and Type casting
+- [x] - Hoisting
+- [x] - Closure
+- [x] - Bind
+- [x] - Scope in JS
+- [x] - Call and Apply
+- [x] - How this works?
+- [x] - Diff between null and undefined?
+- [x] - Data types in JS
+- [x] - === vs == and Type casting
+- [ ] - Global, Local Variables
 - [ ] - Eval()
 - [ ] - Prototypal inheritance
 - [ ] - How to create native methods in JS ([].duplicate())
+- [ ] - Diff between DOMContentLoaded and onload?
 - [ ] - Event delegation
 - [ ] - Event Bubbling
 - [ ] - IIFE, Anonymous Function
-- [ ] - Global, Local Variables
 - [ ] - Diff between {} and new Object()
 - [ ] - JSOP
 - [ ] - Ajax
