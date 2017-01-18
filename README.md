@@ -4,7 +4,7 @@ We need one place to have a list of interview questions, concepts, coding challe
 [ ] TODO: Add Sub Pages for below topics
 
 ### Language
-- [HTML](https://github.com/FuelFrontend/Frontend-Developer-Interview-Preparation/blob/master/HTML/README.md)
+- [HTML](https://github.com/FuelFrontend/Frontend-Developer-Interview-Preparation/tree/master/HTML)
 - CSS
 - JAVASCRIPT
 
