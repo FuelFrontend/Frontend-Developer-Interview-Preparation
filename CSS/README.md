@@ -1,6 +1,6 @@
 # CSS
 
-> Contains basic and advanced CSS questions
+> Contains basic and advanced questions
 
 - [ ] - Diff between CSS1, CSS2 and CSS3?
 - [ ] - Whats new in CSS3?

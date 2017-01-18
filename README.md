@@ -6,7 +6,7 @@ We need one place to have a list of interview questions, concepts, coding challe
 ### Language
 - [HTML](https://github.com/FuelFrontend/Frontend-Developer-Interview-Preparation/tree/master/HTML)
 - [CSS](https://github.com/FuelFrontend/Frontend-Developer-Interview-Preparation/tree/master/CSS)
-- JAVASCRIPT
+- [JAVASCRIPT](https://github.com/FuelFrontend/Frontend-Developer-Interview-Preparation/tree/master/JAVASCRIPT)
 
 ### Frameworks
 - Angular JS

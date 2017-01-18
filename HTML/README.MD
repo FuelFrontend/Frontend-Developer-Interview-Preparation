@@ -1,6 +1,6 @@
 # HTML
 	
-	> Contains basic and advanced questions in HTML
+	> Contains basic and advanced questions
 
 - [ ] - What's new html 5?
 - [ ] - What's new html 5.1?
