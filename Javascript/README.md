@@ -2,8 +2,93 @@
 
 > Contains basic and advanced questions
 
-- [ ] - Hoisting
-- [ ] - Closure
+- [x] Hoisting
+
+  A variable **declaration** lets the system know that the variable exists while **definition** assigns it a value.
+
+  Variable declarations (and declarations in general) are processed before any code is executed, declaring a variable anywhere in the code is equivalent to declaring it at the top. This also means that a variable can appear to be used before it's declared. This behavior is called "hoisting", as it appears that the variable declaration is moved to the top of the function or global code.
+
+  Just remember, variable declarations and function definitions are hoisted to the top. Variable definitions are not, even if you declare and define a variable on the same line.
+
+  ```js
+  function doTheThing() {
+    // ReferenceError: notDeclared is not defined
+    console.log(notDeclared);
+
+    // Outputs: undefined
+    console.log(definedLater);
+    var definedLater;
+
+    definedLater = 'I am defined!'
+    // Outputs: 'I am defined!'
+    console.log(definedLater)
+
+    // Outputs: undefined
+    console.log(definedSimulateneously);
+    var definedSimulateneously = 'I am defined!'
+    // Outputs: 'I am defined!'
+    console.log(definedSimulateneously)
+
+    // Outputs: 'I did it!'
+    doSomethingElse();
+
+    function doSomethingElse() {
+      console.log('I did it!');
+    }
+
+    // TypeError: undefined is not a function [Because functionVar is a variable]
+    functionVar();
+
+    var functionVar = function() {
+      console.log('I did it!');
+    }
+  }
+  ```
+
+  To make things easier to read
+
+  - Declare all of your variables at the top of your function scope so it is clear which scope the variables are coming from.
+  - Define your variables before you need to use them.
+  - Define your functions at the bottom of your scope to keep them out of your way.
+
+
+- [x] Closure
+
+  > Closure is when a function 'remembers' its lexical scope even when the function is executing outside that lexical scope. ~ Kyle Simpson
+
+  A closure is an inner function that has access to the outer (enclosing) function’s variables—scope chain. The closure has three scope chains:
+    - It has access to its own scope (variables defined between its curly brackets)
+    - It has access to the outer function’s variables
+    - It has access to the global variables
+
+  The inner function has access not only to the outer function’s variables, but also to the outer function’s parameters. Note that the inner function cannot call the outer function’s arguments object, however, even though it can call the outer function’s parameters directly.
+
+  ```js
+  var pizza = function() {
+    var crust = "thin";
+    var toppings = 3;
+    var hasBacon = true;
+
+    var getToppings = function() {
+      return toppings;
+    }
+
+    var pizzaInfo = {};
+    pizzaInfo.getToppings = getToppings;
+
+    return pizzaInfo;
+  }
+
+  var pizzaA = new pizza();
+
+  pizzaA.getToppings(); // returns 3
+  ```
+
+  - Closures are useful in hiding the implementation of functionality while still revealing the interface
+  - Closure is one way of supporting first-class functions; it is an expression that can reference variables within its scope (when it was first declared), be assigned to a variable, be passed as an argument to a function, or be returned as a function result.
+
+  More Details: [Link](http://javascriptissexy.com/understand-javascript-closures-with-ease/)
+
 - [ ] - Bind
 - [ ] - Scope in JS
 - [ ] - Call and Apply
@@ -26,6 +111,7 @@
 - [ ] - Use Strict
 - [ ] - Event Loop
 - [ ] - What is Function Declaration and Definition?
+- [ ] Javascript Function Parameters, Arguments, Argument Objects
 - [ ] - How do you find an variable is Array or not?
 - [ ] - DOM API’s and operations.
 - [ ] - Geolocation
