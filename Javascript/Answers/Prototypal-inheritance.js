@@ -6,7 +6,7 @@
 	2. So if say `inheritance` in javascript, then objects inherit from other objects.
 
 	Reference:
-	1. http://javascript.info/tutorial/inheritance
+	1. https://medium.com/@kevincennis/prototypal-inheritance-781bccc97edb#.h7q4uvxul
 	2. https://developer.mozilla.org/en/docs/Web/JavaScript/Inheritance_and_the_prototype_chain
 */ 
 
@@ -37,7 +37,7 @@ console.log(myCat2.meow()); // Meow!!
 // So by placing a method in `Cat()` function's prototype. We made it available for all the instance of `Cat()`
 
 // Note: (keep in mind)
-// this doesn't mean `meow()` method is copied from 'Cat()' to `myCat` or `myCat2`, instead they looks up to its parent's prototype (in our case its Cat()) via invisible link.
+// this doesn't mean `meow()` method is copied from 'Cat()' to `myCat` or `myCat2`, instead they looks up to its parent's prototype (in our case its Cat()) via invisible link (__proto__).
 
 // More explanation for example
 // 1. Javascript will look for `meow()` method, when you call it from `myCat` or `myCat2`.
@@ -90,3 +90,9 @@ Class2.prototype = Object.create(Class1.prototype); // Object.create() will crea
 var myClass2Instance = new Class2("Krishh"); // `this.name` is bound to the created object. That is `Class2("Krishh")`
 console.log(myClass2Instance.print()); // Krishh
 // print() method inherited from Class1
+console.log(myClass2Instance.hasOwnProperty("print")); // false, since print() is inherited from Class1.prototype not Class2 method
+console.log(Class2.prototype.hasOwnProperty("print")); // false
+console.log(Class1.prototype.hasOwnProperty('print')); // true
+
+// Using `getPrototypeOf()` method, we can check from where Class2.prototype inherited from?
+console.log(Object.getPrototypeOf(Class2.prototype) === Class1.prototype); // true
