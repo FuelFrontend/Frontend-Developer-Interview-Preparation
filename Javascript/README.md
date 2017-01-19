@@ -2,6 +2,7 @@
 
 > Contains basic and advanced questions
 
+- [x] - Global, Local Variables
 - [x] - Hoisting
 - [x] - Closure
 - [x] - Bind
@@ -11,8 +12,7 @@
 - [x] - Diff between null and undefined?
 - [x] - Data types in JS
 - [x] - === vs == and Type casting
-- [ ] - Global, Local Variables
-- [ ] - Eval()
+- [x] - Eval()
 - [ ] - Prototypal inheritance
 - [ ] - How to create native methods in JS ([].duplicate())
 - [ ] - Diff between DOMContentLoaded and onload?
