@@ -14,7 +14,7 @@
 - [x] - === vs == and Type casting
 - [x] - Eval()
 - [x] - Prototypal inheritance
-- [ ] - How to create native methods in JS ([].duplicate())
+- [x] - How to create native methods in JS ([].duplicate())
 - [ ] - Diff between DOMContentLoaded and onload?
 - [ ] - Event delegation
 - [ ] - Event Bubbling
