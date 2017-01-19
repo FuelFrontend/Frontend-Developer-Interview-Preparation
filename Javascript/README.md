@@ -15,10 +15,10 @@
 - [x] - Eval()
 - [x] - Prototypal inheritance
 - [x] - How to create native methods in JS ([].duplicate())
-- [ ] - Diff between DOMContentLoaded and onload?
+- [x] - IIFE, Anonymous Function
 - [ ] - Event delegation
 - [ ] - Event Bubbling
-- [ ] - IIFE, Anonymous Function
+- [ ] - Diff between DOMContentLoaded and onload?
 - [ ] - Diff between {} and new Object()
 - [ ] - JSOP
 - [ ] - Ajax
