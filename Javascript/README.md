@@ -13,7 +13,7 @@
 - [x] - Data types in JS
 - [x] - === vs == and Type casting
 - [x] - Eval()
-- [ ] - Prototypal inheritance
+- [x] - Prototypal inheritance
 - [ ] - How to create native methods in JS ([].duplicate())
 - [ ] - Diff between DOMContentLoaded and onload?
 - [ ] - Event delegation
