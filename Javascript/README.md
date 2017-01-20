@@ -16,40 +16,40 @@
 - [x] - Prototypal inheritance
 - [x] - How to create native methods in JS ([].duplicate())
 - [x] - IIFE, Anonymous Function
-- [ ] - Event delegation
-- [ ] - Event Bubbling
-- [ ] - Diff between DOMContentLoaded and onload?
-- [ ] - Diff between {} and new Object()
-- [ ] - JSOP
-- [ ] - Ajax
-- [ ] - XML HTTP Request
-- [ ] - Use Strict
-- [ ] - Event Loop
-- [ ] - What is Function Declaration and Definition?
-- [ ] - How do you find an variable is Array or not?
-- [ ] - DOM API’s and operations.
-- [ ] - Geolocation
-- [ ] - Web Workers
-- [ ] - Service Workers
-- [ ] - CROS and Same origin policy
-- [ ] - SetTimeout in for-loop
+- [x] - Event delegation
+- [x] - Event Bubbling & Capturing
+- [x] - Diff between {} and new Object()
+- [x] - Diff between DOMContentLoaded and onload?
+- [x] - Use Strict
+- [x] - What is Function Declaration and Definition?
+- [x] - How do you find an variable is Array or not?
+- [x] - SetTimeout in for-loop
 - [ ] - For-in Loop
-- [ ] - OO programming in JS
+- [ ] - Associative Array
+- [ ] - InstanceOf(), Typeof()
+- [ ] - Sorting abc in array ([1,11,12,21,2,3])
+- [ ] - Pass by value or reference (string, number, boolean, array, objects)
+- [ ] - Event Loop
+- [ ] - DOM API’s and operations.
 - [ ] - How do you create private methods
 - [ ] - Design patters (Singleton, Modular etc,)
 - [ ] - Chaining in js similar to Jquery
-- [ ] - Curing in JS
-- [ ] - Associative Array
 - [ ] - Execution Context
 - [ ] - Callbacks
 - [ ] - Promises
 - [ ] - Callback vs Promise
-- [ ] - InstanceOf(), Typeof()
 - [ ] - Cloning an object
 - [ ] - Cloning an array
 - [ ] - Deep checking in object
-- [ ] - Sorting abc in array ([1,11,12,21,2,3])
-- [ ] - Pass by value or reference (string, number, boolean, array, objects)
+- [ ] - Curing in JS
+- [ ] - XML HTTP Request
+- [ ] - Ajax
+- [ ] - JSONP
+- [ ] - Geolocation
+- [ ] - Web Workers
+- [ ] - Service Workers
+- [ ] - CROS and Same origin policy
+- [ ] - OO programming in JS
 
 # ES6
 
