@@ -24,11 +24,13 @@
 - [x] - What is Function Declaration and Definition?
 - [x] - How do you find an variable is Array or not?
 - [x] - SetTimeout in for-loop
-- [ ] - For-in Loop
+- [x] - For-in Loop
+- [x] - InstanceOf(), Typeof()
 - [ ] - Associative Array
-- [ ] - InstanceOf(), Typeof()
-- [ ] - Sorting abc in array ([1,11,12,21,2,3])
-- [ ] - Pass by value or reference (string, number, boolean, array, objects)
+- [x] - Sorting abc in array ([1,11,12,21,2,3])
+- [x] - Pass by value or reference (string, number, boolean, array, objects)
+- [x] - Cloning an object
+- [x] - Cloning an array
 - [ ] - Event Loop
 - [ ] - DOM API’s and operations.
 - [ ] - How do you create private methods
@@ -38,8 +40,6 @@
 - [ ] - Callbacks
 - [ ] - Promises
 - [ ] - Callback vs Promise
-- [ ] - Cloning an object
-- [ ] - Cloning an array
 - [ ] - Deep checking in object
 - [ ] - Curing in JS
 - [ ] - XML HTTP Request
