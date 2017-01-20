@@ -89,7 +89,37 @@
 
   More Details: [Link](http://javascriptissexy.com/understand-javascript-closures-with-ease/)
 
-- [ ] - Bind
+
+- [x] - Bind
+
+  The bind() method creates a new function that, when called, has its `this` keyword set to the provided value, with a given sequence of arguments preceding any provided when the new function is called.
+
+  The simplest use of bind() is to make a function that, no matter how it is called, is called with a particular this value.
+
+  ```js
+  this.x = 9;    // this refers to global "window" object here in the browser
+  var module = {
+    x: 81,
+    getX: function() { return this.x; }
+  };
+
+  module.getX(); // 81
+
+  var retrieveX = module.getX;
+  retrieveX();   
+  // returns 9 - The function gets invoked at the global scope
+  // New programmers might confuse the
+  // global var x with module's property x
+
+  // Create a new function with 'this' bound to module
+  var boundGetX = retrieveX.bind(module);
+  boundGetX(); // 81
+  ```
+
+  References
+  1. https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_objects/Function/bind
+  2. http://stackoverflow.com/questions/2236747/use-of-the-javascript-bind-method
+
 - [ ] - Scope in JS
 - [ ] - Call and Apply
 - [ ] - How this works?
