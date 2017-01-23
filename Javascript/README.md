@@ -2,7 +2,7 @@
 
 > Contains basic and advanced questions
 
-- [x] 01. [Hoisting](https://github.com/FuelFrontend/Frontend-Developer-Interview-Preparation/blob/lp/Javascript/Answers/01.hoisting.md)
+- [x] 01. [Hoisting](https://github.com/FuelFrontend/Frontend-Developer-Interview-Preparation/blob/lp/Javascript/Answers/01-hoisting.md)
 - [x] 02. [Closure](https://github.com/FuelFrontend/Frontend-Developer-Interview-Preparation/blob/lp/Javascript/Answers/02.closure.md)
 - [x] 03. [Bind](https://github.com/FuelFrontend/Frontend-Developer-Interview-Preparation/blob/lp/Javascript/Answers/03.bind.md)
 
