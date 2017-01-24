@@ -31,10 +31,8 @@
 - [x] - Pass by value or reference (string, number, boolean, array, objects)
 - [x] - Cloning an object
 - [x] - Cloning an array
-- [ ] - Event Loop
-- [ ] - DOM API’s and operations.
-- [ ] - How do you create private methods
-- [ ] - Design patters (Singleton, Modular etc,)
+- [x] - Event Loop
+- [x] - How do you create private methods
 - [ ] - Chaining in js similar to Jquery
 - [ ] - Execution Context
 - [ ] - Callbacks
@@ -42,13 +40,15 @@
 - [ ] - Callback vs Promise
 - [ ] - Deep checking in object
 - [ ] - Curing in JS
-- [ ] - XML HTTP Request
+- [ ] - XMLHttpRequest
 - [ ] - Ajax
 - [ ] - JSONP
+- [ ] - CROS and Same origin policy
+- [ ] - DOM API’s and operations.
+- [ ] - Design patters (Singleton, Modular etc,)
 - [ ] - Geolocation
 - [ ] - Web Workers
 - [ ] - Service Workers
-- [ ] - CROS and Same origin policy
 - [ ] - OO programming in JS
 
 # ES6
