@@ -26,13 +26,13 @@
 - [x] - SetTimeout in for-loop
 - [x] - For-in Loop
 - [x] - InstanceOf(), Typeof()
-- [ ] - Associative Array
 - [x] - Sorting abc in array ([1,11,12,21,2,3])
 - [x] - Pass by value or reference (string, number, boolean, array, objects)
 - [x] - Cloning an object
 - [x] - Cloning an array
 - [x] - Event Loop
 - [x] - How do you create private methods
+- [ ] - Associative Array
 - [ ] - Chaining in js similar to Jquery
 - [ ] - Execution Context
 - [ ] - Callbacks
