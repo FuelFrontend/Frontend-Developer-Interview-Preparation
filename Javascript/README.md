@@ -3,10 +3,11 @@
 > Contains basic and advanced questions
 
 - [x] - Global, Local Variables
+- [x] - Associative Array
 - [x] - Hoisting
 - [x] - Closure
 - [x] - Bind
-- [x] - Scope in JS
+- [x] - Scope and Execution Context in JS
 - [x] - Call and Apply
 - [x] - How this works?
 - [x] - Diff between null and undefined?
@@ -32,11 +33,9 @@
 - [x] - Cloning an array
 - [x] - Event Loop
 - [x] - How do you create private methods
-- [ ] - Associative Array
-- [ ] - Chaining in js similar to Jquery
-- [ ] - Execution Context
-- [ ] - Callbacks
-- [ ] - Promises
+- [x] - Chaining in js similar to Jquery
+- [x] - Callbacks
+- [x] - Promises
 - [ ] - Callback vs Promise
 - [ ] - Deep checking in object
 - [ ] - Curing in JS
