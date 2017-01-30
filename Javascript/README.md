@@ -37,8 +37,8 @@
 - [x] - [33. Callbacks](Answers/33.callbacks.js)
 - [x] - [34. Promises](Answers/34.promises.js)
 - [x] - [35. `==` Double equal](Answers/35.double-equal-to.js)
-- [ ] - Callback vs Promise
-- [ ] - Deep checking in object
+- [x] - [Callback vs Promise](Answers/36.callback-vs-promises.js)
+- [x] - [Deep checking in object](Answers/37.deep-checking-in-objects.js)
 - [ ] - Curing in JS
 - [ ] - XMLHttpRequest
 - [ ] - Ajax

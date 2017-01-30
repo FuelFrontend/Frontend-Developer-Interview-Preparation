@@ -1,7 +1,7 @@
 /*
-	# Eval - if the argument is an express then it evaluates expression, else the argument is a statement (can be one or more) then it the executes the statement.
+	# Eval - if the argument is an expression then it evaluates expression, else the argument is a statement (can be one or more) then it the executes the statement.
 
-	Note: Before running, make sure you know what you ar
+	Note: Before running,
 	1. `eval()` dangerous function, make sure you know what you are doing. 
 	2. Running eval could affect the user's machine with malicious code.
 	3. `eval()` is slow.

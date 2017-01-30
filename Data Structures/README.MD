@@ -2,12 +2,13 @@
 
 ## Analysis of Algorithms
 
-- [ ] - Asymptotic Analysis
-- [ ] - Asymptotic Notations
+- [x] - [Asymptotic Analysis](Answers/1.asymptotic-analysis.md)
+- [x] - [Asymptotic Notations](Answers/2.asymptotic-notations.md)
 
-## Data Structure
+## Data Structure 
 
-- [ ] - Linked List
+- [x] - [Linked List](Answers/3.linked-list.md)
+- [ ] - Singly Linked List
 - [ ] - Doubly Linked List
 - [ ] - Queue
 - [ ] - Stack

@@ -1,11 +1,10 @@
 # Code Problems
 
-- [ ] - anagram-detection
-- [ ] - array-pair-sum
-- [ ] - balanced-brackets
+- [x] - [anagram-detection](Answers/1.anagram.js)
+- [x] - [array-pair-sum](Answers/2.array-pair-sum.js)
+- [x] - [balanced-brackets](Answers/3.balanced-brackets.js)
 - [ ] - binary-search-tree-check	
 - [ ] - binary-search-tree	
-- [ ] - bubble-sort	
 - [ ] - byte-format	
 - [ ] - closest-sum	closest sum
 - [ ] - combine-two-strings	
@@ -20,7 +19,6 @@
 - [ ] - flatten-array	
 - [ ] - get-elements-by-class-name	
 - [ ] - hotel-room	
-- [ ] - insertion-sort
 - [ ] - integer-difference	
 - [ ] - integer-length	
 - [ ] - kth-largest-element-in-array	
@@ -32,7 +30,6 @@
 - [ ] - longest-words	
 - [ ] - matching-nodes	
 - [ ] - median-integer-stream	
-- [ ] - merge-sort	
 - [ ] - missing-number	
 - [ ] - money-format	
 - [ ] - multiples-of-3-and-5	
@@ -44,11 +41,9 @@
 - [ ] - prime-number	
 - [ ] - queen-threatens-king
 - [ ] - queue	
-- [ ] - quick-sort	
 - [ ] - remove-duplicates-from-string	
 - [ ] - reverse-words-in-string	
 - [ ] - search-unknown-length-array	
-- [ ] - selection-sort	
 - [ ] - shortest-fizz-buzz	
 - [ ] - skiing-in-singapore
 - [ ] - sorted-array-search	

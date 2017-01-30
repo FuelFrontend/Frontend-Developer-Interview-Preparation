@@ -2,7 +2,7 @@
 	Promises (is asynchronous): is similar to events in javascript except the following
 	
 	1. Promise can succeed or fail once and it cannot switch sucess with failure or vice versa.
-	2. Event if the event you attached with promise took earlier, we can attach a success/failure callback to listen to them accordingly.
+	2. Even if the event you attached with promise took earlier, we can attach a success/failure callback to listen to them accordingly.
 
 	Reference: 
 	1. https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Promise
