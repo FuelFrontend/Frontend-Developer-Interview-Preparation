@@ -9,6 +9,10 @@ We need one place to have a list of interview questions, concepts, coding challe
 - [JAVASCRIPT](https://github.com/FuelFrontend/Frontend-Developer-Interview-Preparation/tree/master/Javascript)
 - [Data Structures](https://github.com/FuelFrontend/Frontend-Developer-Interview-Preparation/tree/master/Data Structures)
 
+### Coding Problems
+
+- [Coding Problems](https://github.com/FuelFrontend/Frontend-Developer-Interview-Preparation/tree/master/Coding Problems)
+
 ### Frameworks
 - Angular JS
 - React JS
