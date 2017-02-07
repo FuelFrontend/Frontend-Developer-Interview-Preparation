@@ -2,40 +2,41 @@
 
 > Contains basic and advanced questions
 
-- [x] - Global, Local Variables
-- [x] - Associative Array
-- [x] - Hoisting
-- [x] - Closure
-- [x] - Bind
-- [x] - Scope and Execution Context in JS
-- [x] - Call and Apply
-- [x] - How this works?
-- [x] - Diff between null and undefined?
-- [x] - Data types in JS
-- [x] - === vs == and Type casting
-- [x] - Eval()
-- [x] - Prototypal inheritance
-- [x] - How to create native methods in JS ([].duplicate())
-- [x] - IIFE, Anonymous Function
-- [x] - Event delegation
-- [x] - Event Bubbling & Capturing
-- [x] - Diff between {} and new Object()
-- [x] - Diff between DOMContentLoaded and onload?
-- [x] - Use Strict
-- [x] - What is Function Declaration and Definition?
-- [x] - How do you find an variable is Array or not?
-- [x] - SetTimeout in for-loop
-- [x] - For-in Loop
-- [x] - InstanceOf(), Typeof()
-- [x] - Sorting abc in array ([1,11,12,21,2,3])
-- [x] - Pass by value or reference (string, number, boolean, array, objects)
-- [x] - Cloning an object
-- [x] - Cloning an array
-- [x] - Event Loop
-- [x] - How do you create private methods
-- [x] - Chaining in js similar to Jquery
-- [x] - Callbacks
-- [x] - Promises
+- [x] - 01. Global, Local Variables
+- [x] - 02. Associative Array
+- [x] - 03. Hoisting
+- [x] - 04. Closure
+- [x] - 05. Bind
+- [x] - 06. Scope and Execution Context in JS
+- [x] - 07. Call and Apply
+- [x] - 08. How `this` works?
+- [x] - 09. Diff between null and undefined?
+- [x] - 10. Data types in JS
+- [x] - 11. `===` Triple Equal
+- [x] - 12. Eval()
+- [x] - 13. Prototypal inheritance
+- [x] - 14. How to create native methods in JS ([].duplicate())
+- [x] - 15. IIFE, Anonymous Function
+- [x] - 16. Event delegation
+- [x] - 17. Event Bubbling & Capturing
+- [x] - 18. Diff between {} and new Object()
+- [x] - 19. Diff between DOMContentLoaded and onload?
+- [x] - 20. Use Strict
+- [x] - 21. What is Function Declaration and Definition?
+- [x] - 22. How do you find an variable is Array or not?
+- [x] - 23. SetTimeout in for-loop
+- [x] - 24. For-in Loop
+- [x] - 25. InstanceOf(), Typeof()
+- [x] - 26. Sorting abc in array ([1,11,12,21,2,3])
+- [x] - 27. Pass by value or reference (string, number, boolean, array, objects)
+- [x] - 28. Cloning an object
+- [x] - 29. Cloning an array
+- [x] - 30. Event Loop
+- [x] - 31. How do you create private methods
+- [x] - 32. Chaining in js similar to Jquery
+- [x] - 33. Callbacks
+- [x] - 34. Promises
+- [x] - 35. `==` Double equal
 - [ ] - Callback vs Promise
 - [ ] - Deep checking in object
 - [ ] - Curing in JS
