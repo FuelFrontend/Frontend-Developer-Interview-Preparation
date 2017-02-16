@@ -8,7 +8,7 @@
 - [ ] - Various techniques for clearing float?
 - [ ] - display vs visibility
 - [ ] - Block, inline-block, inline
-- [ ] - Margin collapsing 
+- [ ] - Margin collapsing
 - [ ] - Positions (relative, fixed, absolute, sticky, static)
 - [ ] - Units such as em, vh, vh, vmin, vmax etc..
 - [ ] - Box model
