@@ -1,6 +1,6 @@
 # AngularJS
 
-> Check "Answers" folder for answers.
+  > Check "Answers" folder for answers.
 
 - [x] 01. List at least three ways to communicate between modules of your application using core AngularJS functionality.
 - [x] 02. Which means of communication between modules of your application are easily testable?

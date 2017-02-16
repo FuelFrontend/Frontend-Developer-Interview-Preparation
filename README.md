@@ -1,8 +1,6 @@
 # Why?
 We need one place to have a list of interview questions, concepts, coding challenges, best practices, etc.,
 
-[ ] TODO: Add Sub Pages for below topics
-
 ### Language
 - [HTML](https://github.com/FuelFrontend/Frontend-Developer-Interview-Preparation/tree/master/HTML)
 - [CSS](https://github.com/FuelFrontend/Frontend-Developer-Interview-Preparation/tree/master/CSS)

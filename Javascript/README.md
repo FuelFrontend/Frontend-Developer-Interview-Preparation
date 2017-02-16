@@ -1,6 +1,6 @@
 # Javascript
 
-> Check "Answers" folder for answers.
+  > Check "Answers" folder for answers.
 
 - [x] - 01. Global, Local Variables
 - [x] - 02. Associative Array

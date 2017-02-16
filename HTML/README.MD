@@ -1,8 +1,8 @@
 # HTML
-	
-	> Contains basic and advanced questions
 
-- [ ] - What's new html 5?
+	> Check "Answers" folder for answer
+
+- [x] - What's new in html 5?
 - [ ] - What's new html 5.1?
 - [ ] - What are the new features in html 5 and html 5.1?
 - [ ] - Input tags and other semantic tags in html 5 and 5.1
@@ -10,7 +10,7 @@
 - [ ] - Cookies, Session Storage, Local Storage difference?
 - [ ] - What is the use of data-attributes in html?
 - [ ] - Async, Defer and Tag attributes like disabled, hidden, inert etc
-- [ ] - Accessibility 
+- [ ] - Accessibility
 - [ ] - Meta tags
 - [ ] - Picture, secret tags for responsive images
 - [ ] - What's the difference between full standards mode, almost standards mode and quirks mode?
@@ -20,7 +20,7 @@
 - [ ] - HTML Validations
 - [ ] - Shadow DOM
 
-#### Reference: 
+#### Reference:
 
 - [Toptap](https://www.toptal.com/html5/interview-questions)
 - [JS Dude](http://thatjsdude.com/interview/html.html)
