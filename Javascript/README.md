@@ -65,6 +65,15 @@
 - [ ] - Pub-Sub 
 - [ ] - Module 
 
+# Problems
+
+- [ ] - Anagram 
+- [ ] - Array Product 
+- [ ] - Counter app without localstorage or global variable
+- [ ] - Find a pair of values in a sorted array equal to a sum
+- [ ] - Prime Number
+- [ ] - Palindrome
+
 Reference:
 
 - [H5BP](https://github.com/h5bp/Front-end-Developer-Interview-Questions#css-questions)
