@@ -56,6 +56,15 @@
 - [ ] - What is ES6 and ECMA ?
 - [ ] - New features of ES6?
 
+# Design Patterns
+
+- [ ] - Factory 
+- [ ] - Singleton 
+- [ ] - Decorator 
+- [ ] - Facade 
+- [ ] - Pub-Sub 
+- [ ] - Module 
+
 Reference:
 
 - [H5BP](https://github.com/h5bp/Front-end-Developer-Interview-Questions#css-questions)
