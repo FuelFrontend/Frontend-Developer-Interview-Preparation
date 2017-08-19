@@ -2,7 +2,7 @@
 
 > You can click on the link on question to open answer [or] navigate to "Answers" folder
 
-- [x] - [01. Global, Local Variables](Javascript/Answers/01.global-local-variables.js)
+- [x] - [01. Global, Local Variables](Answers/01.global-local-variables.js)
 - [x] - [02. Associative Array](https://github.com/FuelFrontend/Frontend-Developer-Interview-Preparation/blob/master/Javascript/Answers/02.associative-array.js)
 - [x] - [03. Hoisting](https://github.com/FuelFrontend/Frontend-Developer-Interview-Preparation/blob/master/Javascript/Answers/03.hoisting.js)
 - [x] - [04. Closure](https://github.com/FuelFrontend/Frontend-Developer-Interview-Preparation/blob/master/Javascript/Answers/04.closure.js)
