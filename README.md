@@ -1,5 +1,7 @@
 # Why?
-We need one place to have a list of interview questions, concepts, coding challenges, best practices, etc.,
+We need one place to have a list of interview questions, concepts, coding challenges, best practices, for frontend developer interview preparation.
+
+PS. We are working on adding answers and more content, feel free to contribute to this repository by creating Pull Request. Thanks!
 
 ### Language
 - [HTML](https://github.com/FuelFrontend/Frontend-Developer-Interview-Preparation/tree/master/HTML)
@@ -8,7 +10,6 @@ We need one place to have a list of interview questions, concepts, coding challe
 - [Data Structures](https://github.com/FuelFrontend/Frontend-Developer-Interview-Preparation/tree/master/Data%20Structures)
 
 ### Coding Problems
-
 - [Coding Problems](https://github.com/FuelFrontend/Frontend-Developer-Interview-Preparation/tree/master/Coding%20Problems)
 
 ### Frameworks

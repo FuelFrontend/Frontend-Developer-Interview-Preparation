@@ -1,8 +1,8 @@
 # HTML
 
-	> Check "Answers" folder for answer
+> You can click on the link on question to open answer [or] navigate to "Answers" folder
 
-- [x] - What's new in html 5?
+- [x] - [What's new in html 5](https://github.com/FuelFrontend/Frontend-Developer-Interview-Preparation/blob/master/HTML/Answers/01.whats-new-in-html5.md)
 - [ ] - What's new html 5.1?
 - [ ] - What are the new features in html 5 and html 5.1?
 - [ ] - Input tags and other semantic tags in html 5 and 5.1
