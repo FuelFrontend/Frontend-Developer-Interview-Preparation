@@ -4,22 +4,22 @@ We need one place to have a list of interview questions, concepts, coding challe
 PS. We are working on adding answers and more content, feel free to contribute to this repository by creating Pull Request. Thanks!
 
 ### Language
-- [HTML](https://github.com/FuelFrontend/Frontend-Developer-Interview-Preparation/tree/master/HTML)
-- [CSS](https://github.com/FuelFrontend/Frontend-Developer-Interview-Preparation/tree/master/CSS)
-- [Javascript](https://github.com/FuelFrontend/Frontend-Developer-Interview-Preparation/tree/master/Javascript)
-- [Data Structures](https://github.com/FuelFrontend/Frontend-Developer-Interview-Preparation/tree/master/Data%20Structures)
+- [Javascript](Javascript)
+- [HTML](HTML)
+- [CSS](CSS)
 
-### Coding Problems
-- [Coding Problems](https://github.com/FuelFrontend/Frontend-Developer-Interview-Preparation/tree/master/Coding%20Problems)
+### Coding
+- [Coding Challenges](Coding%20Problems)
+- [Data Structures](Data%20Structures)
 
 ### Frameworks
-- [Angular JS](https://github.com/FuelFrontend/Frontend-Developer-Interview-Preparation/tree/master/Frameworks/AngularJS)
-- [React JS](https://github.com/FuelFrontend/Frontend-Developer-Interview-Preparation/tree/master/Frameworks/ReactJS)
+- [Angular JS](Frameworks/AngularJS)
+- [React JS](Frameworks/ReactJS)
 - jQuery
 - Backbone JS
 
 ### Dev, Build Tools
-- Webpack 2
+- Webpack
 - Gulp
 - Yarn
 - Yeomen
