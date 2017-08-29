@@ -3,6 +3,10 @@ We need one place to have a list of interview questions, concepts, coding challe
 
 PS. We are working on adding answers and more content, feel free to contribute to this repository by creating Pull Request. Thanks!
 
+### Objective - Mindmap
+
+![Mind Map](frontend-interview-preparation-mindmap.png "Mind Map")
+
 ### Language
 - [Javascript](Javascript)
 - [HTML](HTML)
