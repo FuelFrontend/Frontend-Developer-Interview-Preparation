@@ -1,8 +1,8 @@
 # Code Problems
 
-- [x] - [anagram-detection](Answers/1.anagram.js)
-- [x] - [array-pair-sum](Answers/2.array-pair-sum.js)
-- [x] - [balanced-brackets](Answers/3.balanced-brackets.js)
+- [x] - [01. anagram-detection](Answers/1.anagram.js)
+- [x] - [02. array-pair-sum](Answers/2.array-pair-sum.js)
+- [x] - [03. balanced-brackets](Answers/3.balanced-brackets.js)
 - [ ] - binary-search-tree-check	
 - [ ] - binary-search-tree	
 - [ ] - byte-format	
