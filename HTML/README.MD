@@ -3,10 +3,10 @@
 > You can click on the link on question to open answer [or] navigate to "Answers" folder
 
 - [x] - [01. What's new in HTML 5?](Answers/01.whats-new-in-html5.md)
-- [ ] - 02. What is a class? and What is an ID?
-- [ ] - 03. What's new html5?
+- [ ] - 02. Why do you need <!doctype html>?
+- [ ] - 03. What's new HTML 5.1?
 - [ ] - 04. Input tags and other semantic tags in html 5 and 5.1
-- [ ] - 05. Why do you need <!doctype html>?
+- [ ] - 05. What is a class? and What is an ID?
 - [ ] - 06. What is an iframe and how it works?
 - [ ] - 07. Cookies, Session Storage, Local Storage difference?
 - [ ] - 08. What is the use of data-attributes in html?
