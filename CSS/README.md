@@ -102,45 +102,119 @@
   > - Pros: Nested tags, Mixins, Importing other styles in, Modularity
   > - Cons: Nested tags are hard to read after a certain point, Have to use build tools to compile, Easy to abuse (@extend in sass)
 
-- [ ] Are you familiar with styling SVG?
-- [ ] How do you optimize your webpages for print?
-- [ ] What are some of the "gotchas" for writing efficient CSS?
-- [ ] How would you implement a web design comp that uses non-standard fonts?
-- [ ] Explain how a browser determines what elements match a CSS selector.
-- [ ] Describe pseudo-elements and discuss what they are used for.
-- [ ] Explain your understanding of the box model and how you would tell the browser in CSS to render your layout in different box models.
-- [ ] What does `* { box-sizing: border-box; }` do? What are its advantages?
-- [ ] The 'C' in CSS stands for Cascading. How is priority determined in assigning styles (a few examples)? How can you use this system to your advantage?
-- [ ] How is responsive design different from adaptive design?
-- [ ] Have you ever worked with retina graphics? If so, when and what techniques did you use?
-- [ ] - Margin collapsing
+- [x] 21. Considerations for printing webpages?
+  
+  > - Specify a Print Style Sheet `<link rel="stylesheet" href="print.css" media="print" />`
+  > - Hide Extraneous Elements `.navigation, .footer { display: none;}` 
+  > - Bump Up Font Sizes and Line-Heights `body { font-size: 120%; line-height: 130%; }`
+  > - Move to Serif Fonts `body { font-family: Georgia, "Times New Roman", Times, serif; }`
+  > - Display the destination of links & make them standout with different color `a:link:after { content: " (" attr(href) ") "; }`
+  > - Enlarge content area `#content { width: 100%; margin: 0; float: none; }`
+
+- [x] 22. Explain how a browser determines what elements match a CSS selector.
+
+  > - CSS Selectors are matched by browser engines from right to left consider `#menu ul li a { color: #00f; }` The browser first checks for `a`, then `li`, then `ul`, and then `#menu`.
+  > - Check matching elements for the key(right-most) selector
+  > - Check if the elements are matching parents for the next selectors
+
+- [x] 23. How would you implement a web design company that uses non-standard fonts?
+  
+  > - Google web font is a best alternative to non-standard fonts
+  > - If it's a non-standard and custom font then we can use `@font-face` to render it.
+
+- [x] 24. What does `* { box-sizing: border-box; }` do? What are its advantages?
+
+  > - Apply a natural box layout model to all elements. 
+  > - If you set an element width to 300px and if you apply 10px padding then the rendered element on browser would take 300 + leftmargin 20 + rightmargin 20 = total of 340px in width. If you give `box-sizing: border-box` the padding is applied right inside your box model and rendered width would be 300px irrespective of padding / border used. Also the content section in the element shrinks in order to not take more the 300px width.
+  ```css
+  html {
+    box-sizing: border-box;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  ```
+
+- [x] 25. How is responsive design different from adaptive design?
+  > - Responsive: There is one basic layout, and it changes responsively to screen changes
+  > - Adaptive: For each possible screen size, there is a distinct layout.
+
+- [x] 26. Have you ever worked with retina graphics? If so, when and what techniques did you use?
+ > - Images/Icons are very important things to handle in retina displays as the pixel density is higher in retina display than normal. There are few techniques we can use 
+ > - Use font icons instead of image icons
+ > - Use SVG instead of bitmap images
+ > - Using css media queries to supply hi-res images
+```css
+@media (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 120dpi) {
+  .image {
+    background: url(/path/to/my/highreslogo.png) no-repeat;
+    background-size: 200px 400px;
+  }
+}
+```
+
+- [x] 27. The 'C' in CSS stands for Cascading. How is priority determined in assigning styles (a few examples)? How can you use this system to your advantage?
+
+  > CSS priority is determined by [specificity and inheritance](https://www.smashingmagazine.com/2010/04/css-specificity-and-inheritance/).
+  > - Specificity: ID > class, psuedo-class > element, psuedo-element
+  > - Inheritence: specified value → computed value → used value → actual value
+
+- [x] 28. Describe pseudo-elements and discuss what they are used for.
+
+  > It's to style a part of an element, like `::first-letter` or `::before`. They can be used to add a special symbol before a paragraph, change color of first character of a line, etc.
+
+- [x] 29. What's HTML5 shim, what's its usage
+
+  > - The HTML5 Shiv enables use of HTML5 sectioning elements in legacy Internet Explorer and provides basic HTML5 styling for Internet Explorer 6-9, Safari 4.x (and iPhone 3.x), and Firefox 3.x.
+  > - Pretty much not needed now as most of the browser as on _12 Sep 2017_ supports sectioning elements
+
+- [x] 30. What is Media Queries and why it's used?
+  
+  > Media queries are useful when you want to apply CSS styles depending on a device's general type (such as print vs. screen), specific characteristics (such as the width of the browser viewport). With the huge variety of internet-connected devices available today, media queries are a vital tool for building websites and apps that are robust enough to work on whatever hardware your users have.
+
+  > Targeting sample code below
+  ```css
+  /* Print */
+  @media print { ... }
+
+  /* Screen with maximum width of 1024px */
+  @media screen (max-width: 1024px) { ... }
+
+  /* Screen and Print */
+  @media screen, print { ... }
+  ```
+
+#### API's
+
 - [ ] - Units such as em, vh, vh, vmin, vmax etc..
 - [ ] - Overflow
 - [ ] - media query
 - [ ] - Pseudo classes
 - [ ] - Different selectors in CSS (class, id, attributes etc,.)
 - [ ] - Child selectors (dependent etc,)
-- [ ] - Vertical & Horizontal center (Using tables, positions, flex box etc,.)
 - [ ] - @import
-- [ ] - Specificity
 - [ ] - Animations
 - [ ] - Transitions
 - [ ] - Sass, Less
-- [ ] - Box-sizing (border-box, content-box)
 - [ ] - Calc()
 - [ ] - Variables in css
 - [ ] - currentColor
 - [ ] - backface-visibility.
-- [ ] - How many ways you can style an element using css (inline, external, embedded, imported).
-- [ ] - FOUC (flash of unstyled content)
 - [ ] - translate
-- [ ] - CSS Methodologies (BEM, OOCSS etc,.)
 - [ ] - Gradients, Text shadows
-- [ ] - HTML5 shim
 - [ ] - Cross browser issues in CSS
 - [ ] - Cross browser testing
 - [ ] - SVG and its benefits
-- [ ] - Print stylesheets
+
+#### Concepts
+
+- [ ] - Specificity
+- [ ] - Box model
+- [ ] - Margin collapsing
+- [ ] - Box-sizing (border-box, content-box)
+- [ ] - FOUC (flash of unstyled content)
+- [ ] - CSS Methodologies (BEM, OOCSS etc,.)
 
 #### Generic Questions
 
@@ -148,9 +222,15 @@
 
   > Flexbox is fantastic and I suggest that everyone starts using it. It especially makes it easy to vertically center elements.
   > [CSS Grid](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout) is looking to be amazing. I haven't used it yet, but I'm sure it'll start taking place of some more popular grid frameworks.
-
+  
+- [ ] Are you familiar with styling SVG?
 - [ ] Have you ever used a grid system, and if so, what do you prefer?
 - [ ] Have you used or implemented media queries or mobile specific layouts/CSS?
+- [ ] What are some of the "gotchas" for writing efficient CSS?
+- [ ] Explain your understanding of the box model and how you would tell the browser in CSS to render your layout in different box models.
+- [ ] - Vertical & Horizontal center (Using tables, positions, flex box etc,.)
+- [ ] - How many ways you can style an element using css (inline, external, embedded, imported).
+
 
 #### Reference:
 
