@@ -14,24 +14,23 @@
 - [x] - [10. What's new in HTML 5?](Answers/10.whats-new-in-html5.md)
 - [x] - [11. What's new in HTML 5.1?](Answers/11.whats-new-in-html5.1.md)
 - [x] - [12. What is a class? and What is an ID?](Answers/12.whats-is-class-and-id.md)
-- [ ] - 13. HTML Validations
+- [x] - [13. HTML Validations](Answers/13.html-validations.md)
 - [x] - [14. What is an iframe and how it works?](Answers/14.what-is-an-iframe-and-how-it-works.md)
-- [ ] - 15. How do you serve multi language sites?
+- [x] - [15. How do you serve multi language sites?](Answers/15.how-do-you-serve-multi-language-sites.md)
 - [x] - [16. Cookies, Session Storage, Local Storage difference?](Answers/16.cookies-session-and-localstorage-storage-difference.md)
 - [x] - [17. What is the use of data-* attributes in html?](Answers/17.what-is-the-use-of-data-attr-in-html.md)
 - [x] - [18. Async, Defer, Hidden, attributes](Answers/18.async-defer-hidden-attributes.md)
-- [ ] - 19. Are you using an HTML preprocessor? (jade, HAML etc)
+- [x] - [19. What is a HTML preprocessor and are you using it?](Answers/19.what-is-a-HTML-preprocessor.md)
 - [ ] - 20. Accessibility (a11y) & WAI-ARIA roles
 - [ ] - 21. Do you test for accessibility with screen reader software or a testing service?
-- [ ] - 22. What are the browsers you support in your development?
-- [ ] - 23. What are Web Components?
-- [ ] - 24. What is HTML Imports?
-- [ ] - 25. Picture, srcset tags for responsive images
-- [ ] - 26. SVG’s and Canvas, WebGL
-- [ ] - 27. Web workers
-- [ ] - 28. Shadow DOM
-- [ ] - 29. What is WebSQL?
-- [ ] - 30. What is WebP?
+- [x] - [22. What are the browsers you support in your development?](Answers/22.what-are-the-browsers-you-support-in-your-development.md)
+- [x] - [23. What are Web Components & Shadow DOM?](Answers/23.what-are-web-components.md)
+- [x] - [24. Picture, srcset and sizes for responsive images](Answers/24.picture-srcset-and-sizes-for-responsive-images.md)
+- [x] - [25. SVG’s and Canvas, WebGL](Answers/25.svgs-canvas-webgl.md)
+- [x] - [26. What are Web Workers?](Answers/26.what-are-web-workers.md)
+- [x] - [27. What is WebSQL?](Answers/27.what-is-websql.md)
+- [x] - [28. What is WebP?](Answers/28.what-is-webp.md)
+- [x] - What is an IndexedDB?
 
 #### Reference:
 
