@@ -162,7 +162,8 @@
 
 - [x] 28. Describe pseudo-elements and discuss what they are used for.
 
-  > It's to style a part of an element, like `::first-letter` or `::before`. They can be used to add a special symbol before a paragraph, change color of first character of a line, etc.
+  > - It's to style a part of an element, like `::first-letter` or `::before`. They can be used to add a special symbol before a paragraph, change color of first character of a line, etc.
+  > - These are appropriately called pseudo "elements" (not selectors) because they don't select any "real" element that exists on the page
 
 - [x] 29. What's HTML5 shim, what's its usage
 
@@ -170,10 +171,13 @@
   > - Pretty much not needed now as most of the browser as on _12 Sep 2017_ supports sectioning elements
 
 - [x] 30. What is Media Queries and why it's used?
-  
-  > Media queries are useful when you want to apply CSS styles depending on a device's general type (such as print vs. screen), specific characteristics (such as the width of the browser viewport). With the huge variety of internet-connected devices available today, media queries are a vital tool for building websites and apps that are robust enough to work on whatever hardware your users have.
 
-  > Targeting sample code below
+  > - The goal of responsive design is creating the right experience for the right device.
+  > - With a gazillion different devices on the market, this can be a big task. Media queries helps us achieve our goal of creating right experience for the right device. 
+  > - CSS Media queries allow us to target CSS rules based on - for instance - screen size, device-orientation or display-density. This means you can use CSS Media Queries to tweak a CSS for an iPad, printer or create a responsive site.
+  > - Media queries are useful when you want to apply CSS styles depending on a device's general type (such as print vs. screen), specific characteristics (such as the width of the browser viewport). With the huge variety of internet-connected devices available today, media queries are a vital tool for building websites and apps that are robust enough to work on whatever hardware your users have.
+
+  > Media quries sample code
   ```css
   /* Print */
   @media print { ... }
@@ -185,15 +189,74 @@
   @media screen, print { ... }
   ```
 
-#### API's
+- [x] 31. CSS Units
+  
+  > Length is a number followed by a length unit, such as 10px, 2em, etc. Let's see some commonly used units
+    > - A) Absolute Length: Absolute CSS length units are not well suited for web design. They are a digital representation of measurements in the physical world. Eg. cm (centimeters), mm (millimeters), in (inches), pc (picas), pt (points), px (pixels)
+  >    - **px:** Pixel is relative to the viewing device. For screen display, one CSS pixel typically equals one device pixel (dot) of the display.
+  > - B) Relative Lengths
+  >   - **em:** Relative to the font-size of the element (Eg. If the font size of the parent element is 30px then the value of 1em will compute to 30px (30 x 1). If we substitute 1em, from our example, with 0.5em, the value will compute to 15px (30 x 0.5))
+  >   - **rem:** Relative to font-size of the root element (which is the html element in HTML documents)
+  >  - C) Viewport Percentage Lengths
+  >    - **vw:** (viewport width) This is the “viewport width” unit. 1vw is equal to 1/100th of the width of the viewport. For example, if the width of the window is 1000px, 1vw will be 10px.
+  >    - **vh:** (viewport height) Same as the vw (viewport width) unit only it is based on the viewport height instead. 1vh is equal to 1/100th of the viewport height. For example, if the browser’s height is 900px, 1vh would evaluate to 9px.
+  >    - **vmin:** vmin equals to 1/100th of the minimum value between the height and the width of the viewport. In other words, 1/100th of the side with the smallest length. For example, if the dimensions were 1200 x 800, the value would be 8px.
+  >    - **vmax:** Similar to vmin, except it equals to 1/100th of the maximum value between the height and the width of the viewport. In other words, 1/100th of the side with the largest length. For example, if the dimensions were 1200 x 800, the value would be 12px.
 
-- [ ] - Units such as em, vh, vh, vmin, vmax etc..
-- [ ] - Overflow
-- [ ] - media query
-- [ ] - Pseudo classes
-- [ ] - Different selectors in CSS (class, id, attributes etc,.)
-- [ ] - Child selectors (dependent etc,)
-- [ ] - @import
+- [x] 32. Overflow
+  
+  > - Every single element on a page is a rectangular box. If you don't set the height of a box, the height of that box will grow as large as it needs to be to accommodate the content. But what happens when you do set a specific height or width on a box, and the content inside cannot fit? That is where the CSS overflow property comes in, allowing you to specify how you would like that handled.
+  > - There are four values for the overflow property: `visible` (default), `hidden`, `scroll`, and `auto`. There are also sister properties `overflow-y` and `overflow-x`, which enjoy less widespread adoption.
+
+- [x] 33. Pseudo classes
+
+  > - A CSS pseudo-class is a keyword added to a selector that specifies a special state of the selected element(s). For example, `:hover` can be used to change a button's color when the user hovers over it. Few examples shown below (Full Reference - https://css-tricks.com/pseudo-class-selectors/)
+  > - Link related
+  >   - `:link` this is essentially the same as a[href].
+  >   - `:visited` already been visited by the current browser.
+  >   - `:hover` mouse cursor rolls over a link, it's hover state.
+  >   - `:active` being clicked on or otherwise activated.
+  > - Input
+  >   - `:focus` puts cursor on the input field thus making it ready to enter data
+  > - Position Based
+  >   - `:first-child` Selects the first element within a parent
+  >   - `:last-child` Selects the last element within a parent
+  >   - `:nth-child()` Selects elements based on a simple provided algebraic expression (e.g. "2n" or "4n-1")
+
+- [x] 34. CSS Selectors
+  
+  > - CSS selectors define the elements to which a set of CSS rules apply.
+  > - **Basic Selectors**
+  >    - Element selector (`input`)
+  >    - Class selector (`.class-name`)
+  >    - ID selector (`#id-name`)
+  >    - Universal selector (`*`)
+  >    - Attribute selector (`[attr]`, (`[attr~=value]`, (`[attr*=value]`, etc.,)
+  > - **Combinators**
+  >    - Adjacent sibling combinator (`+`) (Eg.) `h2 + p` will match all `<p>` elements that directly follow an `<h2>`.
+  >    - General sibling combinator ('~') (Eg.) `p ~ span` will match all `<span>` elements that follow a `<p>`.
+  >    - Child combinator ('>') (Eg.) `ul > li` will match all `<li>` elements that are nested directly inside a `<ul>` element.
+  >    - Descendant combinator (' ') (Eg.) `div span` will match all `<span>` elements that are inside a `<div>` element.
+  > - **Pseudo-classes**
+  >    - Selection of elements based on state information that is not contained in the document tree. (Eg.) `a:visited` will match all `<a>` elements that have been visited by the user.
+  > - **Pseudo-elements**
+  >    - Represent entities that are not included in HTML. (Eg.) `p::first-line` will match the first line of all `<p>` elements.
+
+- [x] 35. @import
+
+  > - The @import CSS at-rule is used to import style rules from other style sheets / paths
+  >   ```css
+  >   /* Syntax  */
+  >   @import url;
+  >   @import url list-of-media-queries;
+  >
+  >   /* Example */
+  >   @import url("fineprint.css") print;
+  >   @import 'custom.css';
+  >   @import "common.css" screen, projection;
+  >   @import url('landscape.css') screen and (orientation:landscape);
+  >   ```
+
 - [ ] - Animations
 - [ ] - Transitions
 - [ ] - Sass, Less
@@ -212,9 +275,9 @@
 - [ ] - Specificity
 - [ ] - Box model
 - [ ] - Margin collapsing
-- [ ] - Box-sizing (border-box, content-box)
 - [ ] - FOUC (flash of unstyled content)
 - [ ] - CSS Methodologies (BEM, OOCSS etc,.)
+- [ ] - RWD (Responsive Web Design)
 
 #### Generic Questions
 
