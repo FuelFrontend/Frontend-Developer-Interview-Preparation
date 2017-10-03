@@ -21,16 +21,15 @@
 - [x] - [17. What is the use of data-* attributes in html?](Answers/17.what-is-the-use-of-data-attr-in-html.md)
 - [x] - [18. Async, Defer, Hidden, attributes](Answers/18.async-defer-hidden-attributes.md)
 - [x] - [19. What is a HTML preprocessor and are you using it?](Answers/19.what-is-a-HTML-preprocessor.md)
-- [ ] - 20. Accessibility (a11y) & WAI-ARIA roles
-- [ ] - 21. Do you test for accessibility with screen reader software or a testing service?
-- [x] - [22. What are the browsers you support in your development?](Answers/22.what-are-the-browsers-you-support-in-your-development.md)
-- [x] - [23. What are Web Components & Shadow DOM?](Answers/23.what-are-web-components.md)
-- [x] - [24. Picture, srcset and sizes for responsive images](Answers/24.picture-srcset-and-sizes-for-responsive-images.md)
-- [x] - [25. SVG’s and Canvas, WebGL](Answers/25.svgs-canvas-webgl.md)
-- [x] - [26. What are Web Workers?](Answers/26.what-are-web-workers.md)
-- [x] - [27. What is WebSQL?](Answers/27.what-is-websql.md)
-- [x] - [28. What is WebP?](Answers/28.what-is-webp.md)
-- [x] - What is an IndexedDB?
+- [x] - [20. Accessibility (a11y) & WAI-ARIA roles](Answers/20.accessibility-and-WAI-ARIA-roles.md)
+- [x] - [21. What are the browsers you support in your development?](Answers/21.what-are-the-browsers-you-support-in-your-development.md)
+- [x] - [22. What are Web Components & Shadow DOM?](Answers/22.what-are-web-components.md)
+- [x] - [23. Picture, srcset and sizes for responsive images](Answers/23.picture-srcset-and-sizes-for-responsive-images.md)
+- [x] - [24. SVG’s and Canvas, WebGL](Answers/24.svgs-canvas-webgl.md)
+- [x] - [25. What are Web Workers?](Answers/25.what-are-web-workers.md)
+- [x] - [26. What is WebSQL?](Answers/26.what-is-websql.md)
+- [x] - [27. What is WebP?](Answers/27.what-is-webp.md)
+- [x] - [28. What is an IndexedDB?](Answers/28.what-is-an-indexeddb.md)
 
 #### Reference:
 
