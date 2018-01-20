@@ -9,8 +9,6 @@ We need one place to have a list of interview questions, concepts, coding challe
 * Once you complete most(80%) the sections you are well prepared / brushed up for your next challenge
 * Finally, If you like the repo "star" it and contribute to maintain it to latest.
 
-PS. We are working on adding answers and more content, feel free to contribute to this repository by creating Pull Request. Thanks!
-
 ### Objective - Mindmap
 
 ![Mind Map](frontend-interview-preparation-mindmap.png "Mind Map")
@@ -28,8 +26,11 @@ PS. We are working on adding answers and more content, feel free to contribute t
 
 ### Frameworks
 
-* [ ] [Angular JS](Frameworks/AngularJS)
-* [ ] [React JS](Frameworks/ReactJS)
+* [ ] [Angular](Frameworks/AngularJS)
+* [ ] [ReactJS](Frameworks/ReactJS)
+
+### Libraries
+
 * [ ] jQuery
 * [ ] Backbone JS
 
@@ -42,6 +43,13 @@ PS. We are working on adding answers and more content, feel free to contribute t
 * [ ] Chrome Dev Tools
 * [ ] Oh My Zsh
 * [ ] CSS Preprocessors (SASS, POSTCSS)
+
+### BaaS
+
+* [ ] AWS (Amazon)
+* [ ] Azure (Microsoft)
+* [ ] Graphcool (Facebook)
+* [ ] Firebase (Google)
 
 ### Others
 
@@ -58,11 +66,10 @@ PS. We are working on adding answers and more content, feel free to contribute t
 
 * [ ] Surge
 * [ ] Now.sh
-* [ ] Heroku
-* [ ] AWS
-* [ ] Azure
 
 ### Continous Intergration
 
 * [ ] Travis
 * [ ] Jenkins
+
+PS. We are working on adding answers and more content, feel free to contribute to this repository by creating Pull Request. Thanks!
